@@ -1,0 +1,25 @@
+.features {
+  max-width: 984px;
+  display: flex;
+  flex-direction:column;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 1080px) and (min-width: 985px) {
+  .features {
+    max-width: calc(100% - 96px);
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .features {
+    max-width: calc(100% - 48px);
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .features {
+    max-width: calc(100% - 32px);
+  }
+}

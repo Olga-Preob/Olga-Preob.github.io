@@ -1,0 +1,29 @@
+.gallery {
+  max-width: calc(100% - 96px);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+  gap: 16px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .gallery {
+    gap: 14px;
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .gallery {
+    max-width: calc(100% - 48px);
+    gap: 16px;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .gallery {
+    max-width: calc(100% - 32px);
+    column-gap: 0;
+    row-gap: 12px;
+  }
+}
