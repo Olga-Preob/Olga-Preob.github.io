@@ -1,6 +1,6 @@
 .gallery__item {
+  display: block;
   width: 100%;
-  vertical-align: middle;
   object-fit: cover;
   object-position: center;
 }

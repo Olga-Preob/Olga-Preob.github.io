@@ -3,11 +3,6 @@
   grid-template-columns: min-content 1fr;
   column-gap: 40px;
   row-gap: 48px;
-  margin-bottom: 80px;
-}
-
-.place:last-child {
-  margin-bottom: 0;
 }
 
 @media screen and (max-width: 1024px) {
@@ -19,7 +14,6 @@
 @media screen and (max-width: 768px) {
   .place {
     column-gap: 28px;
-    margin-bottom: 73px;
   }
 }
 
@@ -27,7 +21,6 @@
   .place {
     grid-template-columns: 1fr;
     column-gap: 0;
-    margin-bottom: 50px;
   }
 }
 

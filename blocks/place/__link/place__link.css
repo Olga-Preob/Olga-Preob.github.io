@@ -2,14 +2,5 @@
   font-size: 18px;
   line-height: 1.22;
   font-weight: 400;
-  vertical-align: middle;
-  text-decoration: none;
-  color: #fff;
-  border-bottom: 2px solid #fff;
-  padding-bottom: 0.5px;
-  transition: opacity .6s ease-in-out;
-}
-
-.place__link:hover {
-  opacity: .5;
+  text-decoration: underline;
 }

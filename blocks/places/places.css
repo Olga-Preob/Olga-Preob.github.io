@@ -1,12 +1,19 @@
 .places {
   max-width: 984px;
-  margin-right: auto;
-  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 80px 0;
 }
 
 @media screen and (max-width: 1080px) and (min-width: 985px) {
   .places {
     max-width: calc(100% - 96px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places {
+    gap: 73px 0;
   }
 }
 
@@ -19,5 +26,6 @@
 @media screen and (max-width: 650px) {
   .places {
     max-width: 100%;
+    gap: 50px 0;
   }
 }
