@@ -12,16 +12,11 @@
   .footer {
     max-width: calc(100% - 48px);
     align-items: stretch;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .footer {
     padding: 88px 0 24px;
   }
 }
 
-@media screen and (max-width: 765px) {
+@media screen and (max-width: 760px) {
   .footer {
     flex-direction: column;
     gap: 24px 0;

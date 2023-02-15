@@ -5,12 +5,6 @@
   margin: 0;
 }
 
-@media screen and (max-width: 765px) {
-  .footer__link {
-    vertical-align: middle;
-  }
-}
-
 @media screen and (max-width: 475px) {
   .footer__link {
     font-size: 24px;

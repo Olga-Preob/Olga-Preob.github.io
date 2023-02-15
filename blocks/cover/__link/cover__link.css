@@ -28,7 +28,7 @@
   z-index: -1;
 }
 
-.cover__link:hover.cover__link::before {
+.cover__link:hover::before {
   background-color: rgba(42, 44, 47, 0.8);
 }
 
