@@ -8,5 +8,8 @@
 HTML 5
 CSS 3
 
+### GitHub Pages
+https://olga-preob.github.io/russian-travel-ghpages/
+
 ### Авторы
 Преображенская Оля
